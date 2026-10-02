@@ -1,0 +1,35 @@
+ <button type="button" class="btn-warning">
+            <i class="fa fa-upload"></i> Upload File
+            <input type="file">
+        </button>
+
+
+
+        and  it styles
+
+        .btn-warning{
+    position: relative;
+    padding:11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #ffc100;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+.btn-warning input[type='file']{
+    cursor: pointer;
+    position: absolute;
+    left:0;
+    top:0;
+    transform: scale(3);
+    opacity: 0;
+    
+}
+
+.btn-warning:hover{
+    background-color:#d9a400 ;
+}
